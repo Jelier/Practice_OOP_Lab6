@@ -1,0 +1,6 @@
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\bin\Debug\InterfaceHierarchy.exe.config
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\obj\Debug\InterfaceHierarchy.csprojResolveAssemblyReference.cache
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\bin\Debug\InterfaceHierarchy.exe
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\bin\Debug\InterfaceHierarchy.pdb
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\obj\Debug\InterfaceHierarchy.exe
+C:\Temp\lab6\InterfaceHierarchy\InterfaceHierarchy\obj\Debug\InterfaceHierarchy.pdb
