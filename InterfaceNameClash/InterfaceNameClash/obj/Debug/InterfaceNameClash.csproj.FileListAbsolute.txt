@@ -1,0 +1,6 @@
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\bin\Debug\InterfaceNameClash.exe.config
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\bin\Debug\InterfaceNameClash.exe
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\bin\Debug\InterfaceNameClash.pdb
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\obj\Debug\InterfaceNameClash.csprojResolveAssemblyReference.cache
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\obj\Debug\InterfaceNameClash.exe
+C:\Temp\lab6\InterfaceNameClash\InterfaceNameClash\obj\Debug\InterfaceNameClash.pdb
