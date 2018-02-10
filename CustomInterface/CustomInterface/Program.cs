@@ -11,7 +11,8 @@ namespace CustomInterface
         //Signed by Jelier
         static void Main(string[] args)
         {
-            /* Hexagon hex = new Hexagon();
+            /*
+             Hexagon hex = new Hexagon();
              Console.WriteLine("Points: {0}", hex.Points);
              Circle c = new CustomInterface.Circle("Lisa");
              IPointy itfPt = null;
@@ -29,7 +30,9 @@ namespace CustomInterface
              if (itfPt2 != null)
                  Console.WriteLine("Points: {0}", itfPt2.Points);
              else
-                 Console.WriteLine("OOPS! Not pointy...");*/
+                 Console.WriteLine("OOPS! Not pointy..."); */
+
+
             Shape[] myShapes = { new Hexagon(), new Circle(), new Triangle("Joe"), new Circle("JoJo") };
             for (int i = 0; i < myShapes.Length; i++)
             {
@@ -38,10 +41,18 @@ namespace CustomInterface
                     Console.WriteLine("==> Points: {0}", ((IPointy)myShapes[i]).Points);
                 else
                     Console.WriteLine("==> {0}'s not pointy!", myShapes[i].PetName);
+                if (myShapes[i] is IDraw3D)
+                    DrawIn3D((IDraw3D)myShapes[i]);
                 Console.WriteLine();
             }
 
             Console.ReadLine();
+        }
+
+        static void DrawIn3D(IDraw3D itf3d)
+        {
+            Console.WriteLine("===> Drawing IDraw3D compatible type");
+            itf3d.Draw3D();
         }
     }
 }

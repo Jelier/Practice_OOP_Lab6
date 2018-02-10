@@ -10,4 +10,8 @@ namespace CustomInterface
     {
         byte Points { get; }
     }
+    public interface IDraw3D
+    {
+        void Draw3D();
+    }
 }
