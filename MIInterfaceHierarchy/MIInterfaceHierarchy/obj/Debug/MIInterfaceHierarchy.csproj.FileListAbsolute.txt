@@ -1,0 +1,6 @@
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\bin\Debug\MIInterfaceHierarchy.exe.config
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\bin\Debug\MIInterfaceHierarchy.exe
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\bin\Debug\MIInterfaceHierarchy.pdb
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\obj\Debug\MIInterfaceHierarchy.csprojResolveAssemblyReference.cache
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\obj\Debug\MIInterfaceHierarchy.exe
+C:\Temp\lab6\MIInterfaceHierarchy\MIInterfaceHierarchy\obj\Debug\MIInterfaceHierarchy.pdb
