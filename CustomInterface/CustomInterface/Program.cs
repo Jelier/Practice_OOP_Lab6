@@ -11,25 +11,36 @@ namespace CustomInterface
         //Signed by Jelier
         static void Main(string[] args)
         {
-            Hexagon hex = new Hexagon();
-            Console.WriteLine("Points: {0}", hex.Points);
-            Circle c = new CustomInterface.Circle("Lisa");
-            IPointy itfPt = null;
-            try
+            /* Hexagon hex = new Hexagon();
+             Console.WriteLine("Points: {0}", hex.Points);
+             Circle c = new CustomInterface.Circle("Lisa");
+             IPointy itfPt = null;
+             try
+             {
+                 itfPt = (IPointy)c;
+                 Console.WriteLine(itfPt.Points);
+             }
+             catch (InvalidCastException e)
+             {
+                 Console.WriteLine(e.Message);
+             }
+             Hexagon hex2 = new Hexagon("Peter");
+             IPointy itfPt2 = hex2 as IPointy;
+             if (itfPt2 != null)
+                 Console.WriteLine("Points: {0}", itfPt2.Points);
+             else
+                 Console.WriteLine("OOPS! Not pointy...");*/
+            Shape[] myShapes = { new Hexagon(), new Circle(), new Triangle("Joe"), new Circle("JoJo") };
+            for (int i = 0; i < myShapes.Length; i++)
             {
-                itfPt = (IPointy)c;
-                Console.WriteLine(itfPt.Points);
+                myShapes[i].Draw();
+                if (myShapes[i] is IPointy)
+                    Console.WriteLine("==> Points: {0}", ((IPointy)myShapes[i]).Points);
+                else
+                    Console.WriteLine("==> {0}'s not pointy!", myShapes[i].PetName);
+                Console.WriteLine();
             }
-            catch (InvalidCastException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            Hexagon hex2 = new Hexagon("Peter");
-            IPointy itfPt2 = hex2 as IPointy;
-            if (itfPt2 != null)
-                Console.WriteLine("Points: {0}", itfPt2.Points);
-            else
-                Console.WriteLine("OOPS! Not pointy...");
+
             Console.ReadLine();
         }
     }
