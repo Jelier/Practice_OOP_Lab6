@@ -1,0 +1,6 @@
+C:\Temp\lab6\CustomInterface\CustomInterface\bin\Debug\CustomInterface.exe.config
+C:\Temp\lab6\CustomInterface\CustomInterface\bin\Debug\CustomInterface.exe
+C:\Temp\lab6\CustomInterface\CustomInterface\bin\Debug\CustomInterface.pdb
+C:\Temp\lab6\CustomInterface\CustomInterface\obj\Debug\CustomInterface.csprojResolveAssemblyReference.cache
+C:\Temp\lab6\CustomInterface\CustomInterface\obj\Debug\CustomInterface.exe
+C:\Temp\lab6\CustomInterface\CustomInterface\obj\Debug\CustomInterface.pdb
