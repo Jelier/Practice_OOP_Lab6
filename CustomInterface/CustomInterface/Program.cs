@@ -33,7 +33,13 @@ namespace CustomInterface
                  Console.WriteLine("OOPS! Not pointy..."); */
 
 
-            Shape[] myShapes = { new Hexagon(), new Circle(), new Triangle("Joe"), new Circle("JoJo") };
+            Shape[] myShapes = {
+                new Hexagon(),
+                new Circle(),
+                new Triangle("Joe"),
+                new Circle("JoJo") };
+            IPointy firstPointyItem = FindFirstPointyShape(myShapes);
+            Console.WriteLine("The item has {0} points", firstPointyItem.Points);
             for (int i = 0; i < myShapes.Length; i++)
             {
                 myShapes[i].Draw();
@@ -53,6 +59,15 @@ namespace CustomInterface
         {
             Console.WriteLine("===> Drawing IDraw3D compatible type");
             itf3d.Draw3D();
+        }
+        static IPointy FindFirstPointyShape(Shape[] shapes)
+        {
+            foreach (Shape s in shapes)
+            {
+                if (s is IPointy)
+                    return s as IPointy;
+            }
+            return null;
         }
     }
 }

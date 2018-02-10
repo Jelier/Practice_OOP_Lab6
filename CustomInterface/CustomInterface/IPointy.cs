@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomInterface
 {
+    //Signed by Jelier
     public interface IPointy
     {
         byte Points { get; }
